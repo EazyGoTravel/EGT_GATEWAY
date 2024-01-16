@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: egt-gateway
+  config.import: configserver:http://localhost:9696
+  cloud:
+    config:
+      label: main
+     
